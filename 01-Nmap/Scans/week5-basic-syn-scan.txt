@@ -1,0 +1,10 @@
+# Nmap 7.94SVN scan initiated Wed Oct  7 06:30:14 2026 as: nmap -sS -oN week5-basic-syn-scan.txt testasp.vulnweb.com
+Nmap scan report for testasp.vulnweb.com (44.238.29.244)
+Host is up (0.051s latency).
+Other addresses for testasp.vulnweb.com (not scanned): 64:ff9b::2cee:1df4
+rDNS record for 44.238.29.244: ec2-44-238-29-244.us-west-2.compute.amazonaws.com
+Not shown: 999 filtered tcp ports (no-response)
+PORT   STATE SERVICE
+80/tcp open  http
+
+# Nmap done at Wed Oct  7 06:30:34 2026 -- 1 IP address (1 host up) scanned in 19.50 seconds

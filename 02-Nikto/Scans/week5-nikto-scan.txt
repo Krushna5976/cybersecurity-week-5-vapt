@@ -1,0 +1,12 @@
+- Nikto v2.1.5/2.1.5
++ Target Host: testasp.vulnweb.com
++ Target Port: 80
++ GET /: Cookie ASPSESSIONIDCADSRCSA created without the httponly flag
++ GET /: Retrieved x-powered-by header: ASP.NET
++ GET /: The anti-clickjacking X-Frame-Options header is not present.
++ GET /OeSNjNWZ.aspx: Retrieved x-aspnet-version header: 2.0.50727
++ GET /robots.txt: Server leaks inodes via ETags, header found with file /robots.txt, fields: 0x3629faa394d51:0 
++ GET /robots.txt: "robots.txt" retrieved but it does not contain any 'disallow' entries (which is odd).
++ OPTIONS /: Allowed HTTP Methods: OPTIONS, TRACE, GET, HEAD, POST 
++ OPTIONS /: Public HTTP Methods: OPTIONS, TRACE, GET, HEAD, POST 
++ GET /login.asp: /login.asp: Admin login page/section found.
